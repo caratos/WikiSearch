@@ -1,6 +1,6 @@
 # WikiSearch
 
-This project searches words in wikipedia by using models extracted from a minimization of automata. It searchs for the first appeareance of a specific term. 
+This project searches words in wikipedia by using models extracted from a minimization of automata. It searchs for the first appeareance of a specific term in **O(m)** time. The preprocessing works in linear time because of the minimization of automata algorithm.
 
 The algorithm for minimization is the presented in  "Incremental Construction of Minimal Acyclic Finite-State Automata". Computational Linguistics Vol.26, Num. 1, 2000. and kazennikov's implementation is here: https://github.com/kzn/fsa
 

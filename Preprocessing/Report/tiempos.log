@@ -1,0 +1,27 @@
+Ejecucion 
+
+Ejecutar run_html2text y eliminar los archivos en la carpeta Processed
+
+real	1250m30,882s
+user	1158m14,108s
+sys	56m16,375s
+
+Ejecutar contar-palabras para verificar la cantidad de palabras, la que más se repite y la más larga
+real	89m30,818s
+user	86m7,565s
+sys	0m38,473s
+
+Ejecutando create-graph.py pero se detuvo en 450 mil archivos, 16043151 nodos y 426374429 palabras
+real	28m24,631s
+user	22m24,166s
+sys	0m21,140s
+En este caso, decidi cancelar la ejecucion porque la memoria estaba al 88.6% y empezaba a demorar más. Creo que estaba intentando llamar constantemente al garbage recollector
+
+Ejecutando transform-to-ascii.py para limpiar y ordenar los archivos
+real	51m44,000s
+user	46m21,321s
+sys	1m39,220s
+
+Ejecutando Minimizacion Daciuk
+TOTAL TIME:37m 2.288s
+
